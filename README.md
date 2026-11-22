@@ -11,8 +11,8 @@ Most publicly available quest scripts follow predictable, automated patterns tha
 * **Realistic Timing & Jitter:** Instead of sending progress updates on exact, metronomic intervals (e.g., every `7.0s` or `20.0s`), all heartbeats and checks use randomized intervals.
 * **True 1x Playback & Post-Completion Linger:** Many older snippets advance video progress faster than real-time (`>1.0x` speed) and kill simulated games the exact millisecond a quest hits 100%. This version tracks real elapsed time and keeps the simulated game or stream active for a brief, randomized cooldown period after completion before closing.
 * **Clean Client State:** Existing running games are preserved rather than overwritten, process metadata follows realistic formatting, and execution is isolated so nothing is left exposed in the global window scope.
-* **Resilient Execution:** Automatically re-checks quest availability and expiration after long breaks and recovers cleanly from temporary network hiccups.
-
+* **Resilient Execution:** Automatically re-checks quest availability and expiration after long breaks and recovers cleanly from temporary network hiccups.*
+* **Limits:** Since discord has its own limits dont start more than 3 quests per day since you will get limitation and probably attract attention which we dont want..Right?
 ## Supported Quest Types
 
 * `WATCH_VIDEO` / `WATCH_VIDEO_ON_MOBILE`
