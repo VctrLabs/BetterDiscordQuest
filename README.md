@@ -306,7 +306,7 @@ Most publicly available quest scripts follow predictable, automated patterns tha
 ```
 
 ## Important Notes
-
+* **Click more quests at once;** Because only then the randomizer works which means that creates queue to confuse the system of detection on discord 
 * **Keep Client Open:** Because the script spaces out quests with randomized breaks, keep the Discord desktop app open and ensure your PC does not enter **Sleep mode** while it is running.
 * **Stream Quests:** For `STREAM_ON_DESKTOP` tasks, manually join a voice channel with at least one other user and stream any window while the script is active.
 * **Stop Execution:** Press `Ctrl + R` inside Discord at any time to reload the client and immediately stop the script.
