@@ -1,9 +1,8 @@
 # VctrGameSim
 
 **Native Windows Game Presence & Quest Scheduler by VctrLabDev**
-
+ ** Not released you need to wait for V1.0.0 to use it still uunder construction** 
 A lightweight, native C++17 Windows utility for simulating game presence naturally at the operating system level. Instead of injecting JavaScript into the Discord client or modifying internal modules, **VctrGameSim** spawns a minimal, zero-overhead Windows executable on the exact directory path Discord's native process scanner expects—wrapped in humanized scheduling and randomized session pacing.
-
 ---
 
 ## Why Native C++ Over Console Scripts?
